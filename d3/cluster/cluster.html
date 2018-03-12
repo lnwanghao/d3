@@ -43,7 +43,7 @@
 
 
 
-        d3.json("city.json", function (error, root) {
+        d3.json("https://raw.githubusercontent.com/lnwanghao/d3/master/d3/cluster/city.json", function (error, root) {
 
             var nodes = cluster.nodes(root);
             var links = cluster.links(nodes);
